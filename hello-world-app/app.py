@@ -10,7 +10,7 @@ def hello():
 
 @app.route('/version')
 def version():
-    return '1.3'
+    return '1.4'
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000)
